@@ -90,8 +90,10 @@ Example: `sudo SEDUTIL_FORK="ChubbyAnt" ./build.sh`
 
 ## Optional Add Entry on UEFI
 
+
 Use environement variable PARTID for defined partion id of partion EFI. And enable ReAdd entry before reboot. Exemple PARTID="05ED-05ED". The script will add the first occurrence in the EFI partition that follows this schema:
 EFI/{NAME}/{efifile}.efi (e.g., EFI/ArchSED/grubx64.efi).
+
 
 
 ## Optional SED unlock via SSH
